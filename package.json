@@ -4,8 +4,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "npm",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon ."
+
   },
   "keywords": [],
   "author": "",
