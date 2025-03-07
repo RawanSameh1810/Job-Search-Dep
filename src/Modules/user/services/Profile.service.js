@@ -1,7 +1,7 @@
 import { UserModel } from "../../../DB/models/User.model.js";
 import { cloudinary } from "../../../config/cloudinary.config.js";
 import {compareSync, hashSync} from "bcrypt"
-import { BlackListModel } from "../../../DB/models/Black-List-tokens.model.js";
+import { BlackListModel } from "../../../DB/models/Black-list-tokens.model.js";
 import { Encryption } from "../../../../Utils/Encryption.utils.js";
 export const UpdatePassword = async(req ,res) => {
     const {_id}= req.authenticatedUser;

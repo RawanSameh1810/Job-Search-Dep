@@ -6,7 +6,7 @@ import { tokens , Refresh_tokens} from "../../../../Utils/Tokens.js";
 import{OAuth2Client} from 'google-auth-library';
 import { providers } from "../../../constants/models.Constants.js";
 import { v4 as uuidv4 } from 'uuid' 
-import { BlackListModel } from "../../../DB/models/Black-List-tokens.model.js";
+import { BlackListModel } from "../../../DB/models/Black-list-tokens.model.js";
 import jwt from 'jsonwebtoken'
 export const SignUp = async(req , res) =>{
     const {firstname , lastname , email , password , confirmPassword , phone , DOB , gender , role , profilePicture , age , isPublic } = req.body;

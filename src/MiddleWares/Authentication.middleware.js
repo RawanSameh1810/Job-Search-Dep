@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { BlackListModel } from "../DB/models/Black-List-tokens.model.js";
+import { BlackListModel } from "../DB/models/Black-list-tokens.model.js";
 import { UserModel } from "../DB/models/User.model.js"
 
 export const authenticationService = () => {
